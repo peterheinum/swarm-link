@@ -7,7 +7,7 @@ One machine runs the hub (SQLite + HTTP server). Both agents hit it to exchange 
 ## How it works
 
 ```
-Your machine                        Brother's machine
+Machine A                           Machine B
 ─────────────────────               ─────────────────────
 swarm-link hub (port 3117)  ←────→  agent polls for tasks
 SQLite database                     posts results back
