@@ -17,7 +17,7 @@ Poll for your next task:
 GET /tasks/next?agent=<AGENT_ID>
 ```
 - Returns the task and marks it `claimed`, or `204` if nothing is waiting.
-- Poll every 10–30 seconds when idle.
+- Poll every 2 minutes when idle.
 
 ## Completing a task
 
